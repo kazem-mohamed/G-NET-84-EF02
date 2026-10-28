@@ -17,4 +17,5 @@ public class Organizer
     public bool IsVerified { get; set; }
 
     public OrganizerProfile? Profile { get; set; }
+    public ICollection<Event> Events { get; set; } = new List<Event>();
 }
