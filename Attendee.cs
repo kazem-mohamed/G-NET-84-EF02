@@ -27,4 +27,6 @@ public class Attendee
 
     [NotMapped]
     public string FullAddress => $"{Street}, {City}, {Country}, {PostalCode}";
+
+    public Badge? Badge { get; set; }
 }
